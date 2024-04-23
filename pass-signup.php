@@ -55,7 +55,7 @@
         <div class="main-content container-fluid">
           <div class="splash-container">
             <div class="card card-border-color card-border-color-success">
-              <div class="card-header"><img class="logo-img" src="assets/img/logo-xx.png" alt="logo" width="{conf.logoWidth}" height="27"><span class="splash-description">Passenger Registration Form</span></div>
+              <div class="card-header"><span class="splash-description">Passenger Registration Form</span></div>
               <div class="card-body">
             
               <?php if(isset($success)) {?>
@@ -116,7 +116,6 @@
                 <!--End Login-->
               </div>
             </div>
-            <div class="splash-footer">&copy; 2019 - <?php echo date ('Y');?> Online Railway Reservation System | Developed By Martin Mbithi Nzilani</div>
 
           </div>
         </div>

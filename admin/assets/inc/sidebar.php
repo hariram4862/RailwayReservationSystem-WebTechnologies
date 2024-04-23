@@ -52,15 +52,7 @@
                       
                     </ul>
                   </li>
-                  <li class="parent"><a href="#"><i class="icon mdi  mdi-account-check"></i><span>Employees</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="admin-add-employee.php">Add Employee</a>
-                      </li>
-                      <li><a href="admin-manage-employee.php">Manage Employee</a>
-                      </li>
-                      
-                    </ul>
-                  </li>
+            
                   <li class="parent"><a href="#"><i class="icon mdi mdi-ticket-confirmation"></i><span>Tickets</span></a>
                     <ul class="sub-menu">
                       <li><a href="emp-approved-tickets.php"><span class="badge badge-success float-right">Approved</span>View</a>

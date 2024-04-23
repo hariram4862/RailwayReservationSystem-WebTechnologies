@@ -59,7 +59,7 @@
         <div class="main-content container-fluid">
           <div class="splash-container">
             <div class="card card-border-color card-border-color-danger">
-              <div class="card-header"><img class="logo-img" src="assets/img/logo-xx.png" alt="logo" width="{conf.logoWidth}" height="27"><span class="splash-description">Admin Login Panel</span></div>
+              <div class="card-header"><span class="splash-description">Admin Login Panel</span></div>
               <div class="card-body">
 
               <!--Login Form-->
@@ -74,15 +74,7 @@
                       <input class="form-control" name="admin_pwd" type="password" placeholder="Password">
                     </div>
 
-                    <div class="form-group row login-tools">
-                      <div class="col-6 login-remember">
-                        <div class="custom-control custom-checkbox">
-                          <input class="custom-control-input" type="checkbox" id="check1">
-                          <label class="custom-control-label" for="check1">Remember Me</label>
-                        </div>
-                      </div>
-                      <div class="col-6 login-forgot-password"><a href="../pass-pwd-forgot.php">Forgot Password?</a></div>
-                    </div>
+   
 
                     <div class="form-group row login-submit">
                       <div class="col-12"><input type = "submit" name ="emp_login" class="btn btn-danger btn-xl btn-block" value ="Log In"></div>
@@ -95,7 +87,6 @@
 
               </div>
             </div>
-            <div class="splash-footer">&copy; 2019 - <?php echo date ('Y');?> Online Railway Reservation System | Developed By Martin Mbithi Nzilani</div>
           </div>
         </div>
       </div>

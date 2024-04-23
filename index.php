@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <!--
 	Online Railway Reservation System
-	martdevelopers254 | @MartinMbithi
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
@@ -32,7 +31,6 @@
 							<ul class="links">
 								<li><a href="index.php">Home</a></li>
 								<li><a href="pass-login.php">Make Reservation</a></li>
-								<li><a href="employee/emp-login.php">Employee Login</a></li>
 								<li><a href="admin/emp-login.php">Admin Login</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -48,7 +46,7 @@
 						</div>
 					</section>
 
-					<section id="footer">
+					<!-- <section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							
@@ -68,7 +66,7 @@
 								<li>&copy; Online Railway Reservation System.</li><li>Developed By: Martin Mbithi Nzilani</li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 			</div>
 
