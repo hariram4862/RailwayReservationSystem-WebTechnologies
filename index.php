@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
 		<title>Online Railway Reservation System</title>
@@ -9,10 +8,8 @@
 		<noscript><link rel="stylesheet" href="includes/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.php">Online Railway Reservation System</a></h1>
@@ -20,7 +17,6 @@
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
-
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
@@ -33,7 +29,6 @@
 							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
-
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -42,31 +37,7 @@
 							<p>Best, Simple, and User Friendly Way To Reserve Train Tickets Effectively</a></p>
 						</div>
 					</section>
-
-					<!-- <section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Online Railway Reservation System<br />
-									PHP Project<br />
-									
-								</li>
-								<li class="icon solid fa-phone">(+254) 127-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">mail@RailwayReservationSystem.com</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/RailwayReservationSystem</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/RailwayReservationSystem</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/RailwayReservationSystem</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Online Railway Reservation System.</li><li>Developed By: Martin Mbithi Nzilani</li>
-							</ul>
-						</div>
-					</section> -->
-
 			</div>
-
 		<!-- Scripts -->
 			<script src="includes/js/jquery.min.js"></script>
 			<script src="includes/js/jquery.scrollex.min.js"></script>
@@ -74,6 +45,5 @@
 			<script src="includes/js/breakpoints.min.js"></script>
 			<script src="includes/js/util.js"></script>
 			<script src="includes/js/main.js"></script>
-
 	</body>
 </html>
