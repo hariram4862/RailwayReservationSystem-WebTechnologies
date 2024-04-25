@@ -52,9 +52,7 @@
             <!--Train Details-->
               <div id='printReceipt' class="invoice">
                 <div class="row invoice-header">
-                  <div class="col-sm-7">
-                    <div class="invoice-logo"></div>
-                  </div>
+               
                   <div class="col-sm-5 invoice-order"><span class="invoice-id">Train Ticket For</span><span class="incoice-date"><?php echo $row->pass_fname;?> <?php echo $row->pass_lname;?></span></div>
                 </div>
                 <div class="row invoice-data">

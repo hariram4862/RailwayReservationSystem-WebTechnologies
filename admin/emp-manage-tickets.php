@@ -98,7 +98,7 @@ if(isset($_GET['del']))
                         <th>Departure</th>
                         <th>Arrival</th>
                         <th>Fare</th>
-                        <th>Payment Code</th>
+                        <th>UPI ID</th>
                         <th>Actions</th>
                       </tr> 
                     </thead>

@@ -42,7 +42,6 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="user-display">
-                  <div class="user-display-bg"><img src="assets/img/profile/<?php echo $row->pass_dpic;?>" alt="Profile Background"></div>
                   <div class="user-display-bottom">
                     <div class="user-display-avatar"><img src="assets/img/profile/<?php echo $row->pass_dpic;?>" alt="Avatar"></div>
                     <div class="user-display-info">

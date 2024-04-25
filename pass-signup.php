@@ -11,7 +11,7 @@
 			$pass_addr=$_POST['pass_addr'];
 			$pass_uname=$_POST['pass_uname'];
 			$pass_email=$_POST['pass_email'];
-			$pass_pwd=sha1(md5($_POST['pass_pwd']));
+			$pass_pwd=$_POST['pass_pwd'];
       //sql to insert captured values
 			$query="insert into RailwayReservationSystem_passenger (pass_fname, pass_lname, pass_phone, pass_addr, pass_uname, pass_email, pass_pwd) values(?,?,?,?,?,?,?)";
 			$stmt = $mysqli->prepare($query);

@@ -88,7 +88,6 @@ if(isset($_GET['del']))
                 </div>
                 <div class="card-body">
                   <table class="table table-striped table-bordered table-hover table-fw-widget" id="table1">
-                    <thead class="thead-dark">
                       <tr>
                         <th>Passeger</th>
                         <th>Email</th>
@@ -97,10 +96,9 @@ if(isset($_GET['del']))
                         <th>Departure</th>
                         <th>Arrival</th>
                         <th>Fare</th>
-                        <th>Payment Code</th>
+                        <th>UPI ID</th>
                         <th>Action</th>
                       </tr> 
-                    </thead>
                     <tbody>
                     <?php
                         /*

@@ -59,7 +59,6 @@
 
                 <div class="card-body">
                   <table class="table table-striped table-bordered table-hover table-fw-widget" id="table1">
-                    <thead class="thead-dark">
                       <tr>
                         <th>Train Number</th>
                         <th>Train</th>
@@ -69,7 +68,6 @@
                         <th>Fare</th>
                         <th>Action</th>
                       </tr>
-                    </thead>
                     <tbody>
                         <?php
                         /**

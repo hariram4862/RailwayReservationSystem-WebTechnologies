@@ -26,7 +26,7 @@
 		    move_uploaded_file($_FILES["pass_dpic"]["tmp_name"],"assets/img/profile/".$_FILES["pass_dpic"]["name"]);
             */
             //  $aid=$_SESSION['emp_id'];
-            $admin_pwd=sha1(md5($_POST['admin_pwd']));
+            $admin_pwd=$_POST['admin_pwd'];
             $query="update RailwayReservationSystem_admin set admin_pwd = ? where admin_id=?";
             $stmt = $mysqli->prepare($query);
             $rc=$stmt->bind_param('si', $admin_pwd, $aid);

@@ -53,9 +53,7 @@
             <!--Train Details-->
               <div id='printReceipt' class="invoice">
                 <div class="row invoice-header">
-                  <div class="col-sm-7">
-                    <div class="invoice-logo"></div>
-                  </div>
+                 
                 </div><!--Log on to codeastro.com for more projects!-->
                 <div class="row">
                   <div class="col-lg-12">

@@ -40,7 +40,6 @@
                 </div>
                 <div class="card-body">
                   <table class="table table-striped table-bordered table-hover">
-                    <thead class="thead-dark">
                       <tr>
                         <th>#</th>
                         <th>Train Number</th>
@@ -52,7 +51,6 @@
                         <th>Fare</th>
                         <th>Total Passengers</th>
                       </tr>
-                    </thead>
                     <tbody>
                     <?php
           

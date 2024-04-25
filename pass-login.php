@@ -5,7 +5,7 @@
     if(isset($_POST['pass_login']))
     {
       $pass_email=$_POST['pass_email'];
-      $pass_pwd=sha1(md5($_POST['pass_pwd']));//double encrypt to increase security
+      $pass_pwd=$_POST['pass_pwd'];//double encrypt to increase security
       $stmt=$mysqli->prepare("SELECT pass_email ,pass_pwd , pass_id FROM RailwayReservationSystem_passenger WHERE pass_email=? and pass_pwd=? ");//sql to log in user
       $stmt->bind_param('ss',$pass_email,$pass_pwd);//bind fetched parameters
       $stmt->execute();//execute bind

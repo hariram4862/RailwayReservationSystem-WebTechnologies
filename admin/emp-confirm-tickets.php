@@ -140,7 +140,7 @@
                       </div>
                     </div>
                     <div class="form-group row">
-                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Payment Code</label>
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">UPI ID</label>
                       <div class="col-12 col-sm-8 col-lg-6">
                         <input class="form-control" readonly name ="fare_payment_code" value = "<?php echo $row->fare_payment_code;?>" name= "pass_fare_payment_code"  id="inputText3" type="text">
                       </div>

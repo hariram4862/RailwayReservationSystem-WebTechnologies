@@ -14,8 +14,7 @@
 ?>
     <nav class="navbar navbar-expand fixed-top be-top-header">
         <div class="container-fluid">
-          <div class="be-navbar-header"><a class="navbar-brand" href="emp-dashboard.php"></a>
-          </div>
+       
           <div class="page-title"><span>
             
           <?php 

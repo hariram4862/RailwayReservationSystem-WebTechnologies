@@ -20,13 +20,11 @@
                     ?>
                   <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span><?php echo $row->admin_uname;?>'s Profile</span></a>
                     <ul class="sub-menu">
-                      <li><a href="emp-profile.php">View</a>
-                      </li>
+                      
                       <li><a href="emp-profile-update.php">Update</a>
                       </li>
                       
-                      <li><a href="emp-profile-avatar.php">Profile Avatar</a>
-                      </li>
+                    
                       <li><a href="emp-profile-password.php">Change Password</a>
                       </li>
                       
@@ -43,38 +41,18 @@
                     </ul>
                 
                   </li>
-                  <li class="parent"><a href="#"><i class="icon mdi  mdi-account-switch"></i><span>Passengers</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="emp-add-passenger.php">Add Passenger</a>
-                      </li>
-                      <li><a href="emp-manage-passengers.php">Manage Passengers</a>
-                      </li>
-                      
-                    </ul>
-                  </li>
+   
             
                   <li class="parent"><a href="#"><i class="icon mdi mdi-ticket-confirmation"></i><span>Tickets</span></a>
                     <ul class="sub-menu">
                       <li><a href="emp-approved-tickets.php"><span class="badge badge-success float-right">Approved</span>View</a>
                       <li><a href="emp-pending-tickets.php"><span class="badge badge-info float-right">Pending</span>View</a>
-                      <li><a href="emp-tickets.php">Manage</a>
-                      </li>
+                 
                     </ul>
                   </li>
-                  <li class="parent"><a href="#"><i class="icon mdi  mdi-key-variant"></i><span>Password Resets</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="emp-approved-pwdresets.php"><span class="badge badge-success float-right">Approved</span>View</a>
-                      <li><a href="emp-pending-pwdresets.php"><span class="badge badge-info float-right">Pending</span>View</a>
-                      </li>
-                    </ul>
-                  </li> 
+      
 
-                  <li class="parent"><a href="#"><i class="icon mdi  mdi-square-inc-cash"></i><span>Accounting</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="emp-view-accounting.php"><span class="badge badge-success float-right">Ticket Payments</span>View</a>
-                      </li>
-                    </ul>
-                  </li>   
+          
 
                   <li><a href="emp-logout.php "><i class="icon mdi mdi-exit-run"></i><span>Logout</span></a>
                   </li>

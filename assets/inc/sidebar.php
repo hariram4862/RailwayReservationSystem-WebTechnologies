@@ -25,10 +25,8 @@
                       <li><a href="pass-profile-update.php">Update</a>
                       </li>
                       
-                      <li><a href="pass-profile-avatar.php">Profile Avatar</a>
-                      </li>
-                      <li><a href="pass-profile-password.php">Change Password</a>
-                      </li>
+                   
+         
                       
                     </ul>
                   </li>
@@ -37,7 +35,6 @@
                   
                     <ul class="sub-menu">
                        <li><a href="pass-all-available-trains.php">All Available Trains</a>
-                       <li><a href="pass-search-available-trains.php">Search Train</a>
                     </li>
                       
                     </ul>
